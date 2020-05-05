@@ -1,0 +1,45 @@
+body
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight:bold;
+
+}
+
+img
+{
+    float: left;
+}
+
+h1
+{
+    font-family: 'Staatliches', cursive;
+    font-size: 40px;
+    font-style: bold;
+    color: rgb(255, 115, 0)
+}
+
+h2
+{
+    font-size:20px;
+}
+.activities
+{
+    border-top: 1px black solid;
+}
+.boutonactivite
+{
+    background-color: orange;
+    width: 15%;
+    height: 100px;
+    text-align : center;
+}
+
+.boutonactivite-click
+{
+   background-color: rgb(255, 115, 0);
+}
+
+/*     position: relative;
+    top: 45%;
+*/
+
