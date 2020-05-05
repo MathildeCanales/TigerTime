@@ -4,7 +4,10 @@ body
     font-weight:bold;
 
 }
-
+header
+{
+    border-bottom: 1px rgb(255, 115, 0) solid;
+}
 img
 {
     float: left;
@@ -15,28 +18,33 @@ h1
     font-family: 'Staatliches', cursive;
     font-size: 40px;
     font-style: bold;
-    color: rgb(255, 115, 0)
+    color: rgb(255, 115, 0);
+    text-align: center;
 }
 
 h2
 {
     font-size:20px;
+    text-align:center;
 }
-.activities
-{
-    border-top: 1px black solid;
-}
+
 .boutonactivite
 {
-    background-color: orange;
+    background-color:  rgb(255, 115, 0);
     width: 15%;
     height: 100px;
     text-align : center;
 }
 
-.boutonactivite-click
+.boutonactivite-clic
 {
-   background-color: rgb(255, 115, 0);
+   background-color: rgb(255, 60, 0);
+}
+
+div
+{
+    position: relative;
+    top: 40%;
 }
 
 /*     position: relative;

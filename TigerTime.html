@@ -1,6 +1,7 @@
 <html>
     <link rel="stylesheet" href="TigerTime_style.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Staatliches&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 
     <title> TIGER TIME </title>
     
@@ -13,10 +14,10 @@
         
     <section class=activities>
         <div><p>Choisissez votre activité à chronométrer : </p></div>
-        <div class=boutonactivite id="oncall">
-            <div>
-                ON CALL
-            </div>
+        <div class=boutonactivite id="oncall" onclick="$('#oncall').addClass('boutonactivite-clic')" >
+        <div>
+            ON CALL
+        </div>
         </div>
 
     </section>
